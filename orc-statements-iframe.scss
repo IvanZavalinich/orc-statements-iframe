@@ -1,0 +1,635 @@
+/* -------- Dashboard Start from here --- */
+body {
+	background-color: #fff;
+}
+.text-align-right {
+	text-align: right;
+}
+.text-align-left {
+	text-align: left !important;
+}
+.text-align-center {
+	text-align: center;
+}
+.new-dashboard .bg-theme {
+	background-color: #0060a9;
+}
+.new-dashboard .color-theme,
+.new-dashboard .ibox-content h4.color-theme {
+	color: #0060a9;
+}
+.new-dashboard .red-warning-color {
+	color: #eb5757;
+}
+
+/* Payment Status colors Start here */
+
+.new-dashboard .status-danger-bg {
+	background: #eb5757;
+}
+.new-dashboard .status-success-bg {
+	background: #18a689;
+}
+.new-dashboard .status-warning-bg {
+	background: #f7a54a;
+}
+
+/* Payment Status colors End here */
+.new-dashboard .border-color-theme {
+	border-color: #0060a9;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 0;
+}
+.new-dashboard .full-width-center {
+	text-align: center;
+	width: 100%;
+}
+.new-dashboard .amount-box .amount-head {
+	padding: 12px 0;
+	border-radius: 0;
+}
+.new-dashboard .amount-box .amount-head h4 {
+	color: #fff;
+	margin: 0;
+}
+.new-dashboard .amount-body {
+	background: #f2f2f2;
+	padding: 15px 0;
+	border-radius: 0;
+}
+/* Navbar style Start here */
+.new-dashboard .navbar-default {
+	border: 0;
+}
+.new-dashboard .navbar-default .navbar-brand,
+.new-dashboard .navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+}
+.new-dashboard .nav > li > a {
+	padding: 15px 15px;
+}
+.new-dashboard .navbar-default .navbar-nav > .active > a,
+.new-dashboard .navbar-default .navbar-nav > .active > a:focus,
+.new-dashboard .navbar-default .navbar-nav > .active > a:hover {
+	color: #e7e7e7;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.new-dashboard .navbar-default .navbar-nav a:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+}
+.new-dashboard .nav > li.active {
+	border-left: 0;
+	background: transparent;
+}
+.new-dashboard .navbar-default .nav > li > a:hover,
+.new-dashboard .navbar-default .nav > li > a:focus {
+	background-color: transparent;
+}
+.new-dashboard a {
+	color: #337ab7;
+}
+/* Navbar style End here */
+/* New Dashboard style Start here */
+.new-dashboard .navbar-nav .setting-btn i {
+	font-size: 15px;
+	margin: 0;
+}
+.new-dashboard .pay-now-wrap {
+	margin: 0 15px 15px 15px;
+	display: flex;
+	align-items: center;
+}
+.new-dashboard .pay-now-wrap p {
+	font-size: 16px;
+	margin: 0;
+	color: #eb5757;
+	font-weight: 600;
+	flex: 1;
+}
+.new-dashboard .pay-now-wrap button {
+	font-size: 14px;
+	padding: 5px 50px;
+}
+.new-dashboard .ibox.float-e-margins {
+	border: 1px solid #d3d3d3;
+	border-radius: 0;
+	height: calc(100% - 25px);
+}
+.new-dashboard .ibox-title {
+	background-color: #f2f2f2;
+	border: 0;
+	border-radius: 0;
+	padding: 15px 25px 7px 15px;
+}
+.new-dashboard .ibox-content {
+	border-radius: 0;
+}
+.new-dashboard .ibox-content h3,
+.new-dashboard .ibox-content h4,
+.new-dashboard .ibox-content p {
+	color: #505050;
+}
+.new-dashboard .ibox.float-e-margins i {
+	font-size: 20px;
+}
+.new-dashboard .ibox-content .payment-box i {
+	font-size: 16px;
+}
+.new-dashboard .ibox-content .payment-box .add-card span {
+	display: inline-block;
+	color: #505050;
+}
+.new-dashboard .ibox-content .payment-box .add-card i {
+	color: #0060a9;
+}
+/* Active Order Table style Start here */
+.new-dashboard .table-responsive > .table > tbody > tr > td,
+.new-dashboard .table-responsive > .table > tbody > tr > th,
+.new-dashboard .table-responsive > .table > tfoot > tr > td,
+.new-dashboard .table-responsive > .table > tfoot > tr > th,
+.new-dashboard .table-responsive > .table > thead > tr > td,
+.new-dashboard .table-responsive > .table > thead > tr > th {
+	max-width: 210px;
+	white-space: unset;
+	word-break: break-word;
+	padding: 5px;
+}
+.new-dashboard .table-responsive.history-table > .table > tbody > tr > td {
+	padding: 13px 5px;
+}
+.new-dashboard .table-responsive > .table > thead > tr > th {
+	color: #0060a9;
+	font-weight: 600;
+}
+.new-dashboard .table-responsive > .table > tbody > tr > td {
+	vertical-align: middle;
+}
+.new-dashboard .table-responsive .action-buttons .btn-white {
+	border: 0;
+}
+.new-dashboard .table-responsive .action-buttons .btn-white span {
+	color: #505050;
+	font-weight: 600;
+}
+.new-dashboard .table-responsive .action-buttons .btn-white span,
+.new-dashboard .table-responsive .action-buttons .btn-white i {
+	display: inline-block;
+	vertical-align: middle;
+}
+.new-dashboard .table-responsive .action-buttons .btn-white i {
+	font-size: 17px;
+}
+.new-dashboard .table-responsive {
+	padding: 0 15px;
+}
+.new-dashboard .table-responsive .table {
+	margin-bottom: 0;
+}
+.new-dashboard .table-responsive tfoot ul.pagination {
+	margin-bottom: 0;
+}
+.new-dashboard .payment-modal label {
+	color: #505050;
+	font-weight: 400;
+}
+.new-dashboard .payment-modal .cards-pics {
+	margin-top: 25px;
+}
+.new-dashboard .payment-modal .cards-pics li {
+	list-style: none;
+	display: inline-block;
+}
+.new-dashboard .relative-wrap {
+	position: relative;
+}
+.new-dashboard .relative-wrap .form-control {
+	padding-right: 30px;
+}
+.new-dashboard .relative-wrap .eye-btn {
+	position: absolute;
+	right: 8px;
+	top: 50%;
+	margin-top: -8px;
+}
+
+/* Active Order Table style End here */
+/* New Dashboard style End here */
+@media (max-width: 768px) {
+	.navbar-header {
+		display: inline;
+		float: none;
+	}
+	.new-dashboard .navbar-default .navbar-toggle:focus,
+	.new-dashboard .navbar-default .navbar-toggle:hover,
+	.new-dashboard .navbar-toggle {
+		background-color: #fff;
+		border-color: #fff;
+	}
+	.new-dashboard .pay-now-wrap {
+		display: block;
+		text-align: center;
+	}
+	.new-dashboard .pay-now-wrap p {
+		margin-bottom: 5px;
+	}
+}
+@media (max-width: 992px) {
+	.new-dashboard .table-responsive > .table > tbody > tr > td,
+	.new-dashboard .table-responsive > .table > tbody > tr > th,
+	.new-dashboard .table-responsive > .table > tfoot > tr > td,
+	.new-dashboard .table-responsive > .table > tfoot > tr > th,
+	.new-dashboard .table-responsive > .table > thead > tr > td,
+	.new-dashboard .table-responsive > .table > thead > tr > th {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+}
+@media (min-width: 768px) {
+	.new-dashboard .navbar-nav > li:last-child {
+		margin-right: 15px;
+	}
+	.new-dashboard .navbar-right,
+	.new-dashboard .navbar-header {
+		padding: 10px 0px;
+	}
+	.new-dashboard .navbar {
+		min-height: 70px;
+	}
+	.new-dashboard .modal-dialog {
+		width: 700px;
+		margin: 30px auto;
+	}
+	.btn-padding {
+		padding: 5px 45px;
+	}
+}
+@media (min-width: 1200px) {
+	.new-dashboard .navbar-nav > li {
+		margin: 0px 5px;
+	}
+	.no-gutters {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+/* Pagination Style Start here */
+.new-dashboard .table-responsive tfoot ul.pagination {
+	background: #fff;
+	border: 1px solid #dddddd;
+	display: inline-block;
+}
+.new-dashboard .table-responsive tfoot ul.pagination a,
+.new-dashboard .table-responsive tfoot ul.pagination span {
+	border-right: 1px solid #ccc;
+	padding: 5px 15px;
+	display: inline-block;
+	color: #505050;
+}
+.new-dashboard .table-responsive tfoot ul.pagination span,
+.new-dashboard .table-responsive tfoot ul.pagination .currentStep {
+	background-color: #f4f4f4;
+}
+.new-dashboard .footable-visible .pagination a:last-child {
+	border-right: 0;
+}
+.new-dashboard .footable-visible .pagination a:hover {
+	background-color: #f4f4f4;
+	border-color: #dddddd;
+}
+/* Pagination Style End here */
+
+/* New Invoices Table style start here */
+.new-dashboard .custom-invoice-table {
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	padding: 15px;
+}
+.new-dashboard .custom-invoice-table .invoice-table p {
+	margin-bottom: 0;
+}
+.new-dashboard .custom-invoice-table .invoice-table.table > tbody > tr > td {
+	border-top: 0;
+}
+.new-dashboard .custom-invoice-table .invoice-table tbody > tr > td:last-child,
+.new-dashboard .custom-invoice-table .invoice-table tbody > tr > td:nth-child(4),
+.new-dashboard .custom-invoice-table .invoice-table tbody > tr > td:nth-child(3),
+.new-dashboard .custom-invoice-table .invoice-table tbody > tr > td:nth-child(2),
+.new-dashboard .custom-invoice-table .invoice-table thead > tr > th:last-child,
+.new-dashboard .custom-invoice-table .invoice-table thead > tr > th:nth-child(4),
+.new-dashboard .custom-invoice-table .invoice-table thead > tr > th:nth-child(3),
+.new-dashboard .custom-invoice-table .invoice-table thead > tr > th:nth-child(2) {
+	text-align: center;
+}
+.new-dashboard .padding-top-15 {
+	padding-top: 15px;
+}
+.new-dashboard .padding-top-20 {
+	padding-top: 20px;
+}
+.new-dashboard .padd-right-percent {
+	padding-right: 16%;
+}
+.new-dashboard .line-height-13 {
+	line-height: 1.3;
+	margin-top: 0;
+}
+.new-dashboard .btn-padding {
+	padding: 5px 45px;
+	padding: 5px 45px;
+	width: 80%;
+	max-width: 300px;
+}
+.data_success {
+	color: #1ed821 !important;
+}
+.data_error {
+	color: red !important;
+}
+.custome_bill_status {
+	background-color: #fff7eb;
+	/*height:56px;*/
+}
+.custome_status_result {
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	color: rgba(201, 7, 2, 255);
+	padding: 10px 0px;
+	border-top: 1px solid #f2f2f3;
+}
+.custome_bill_status_paid {
+	background: #ccffcc;
+}
+.custome_status_result_paid {
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	color: #1ed821 !important;
+	padding: 10px 0px;
+	border-top: 1px solid #f2f2f3;
+}
+.custome_status {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: rgba(9, 111, 211, 255);
+	padding: 11px 0px;
+	border-top: 1px solid #f2f2f3;
+	border-left: 1px solid #f2f2f3;
+}
+.custome_status_result_paid {
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	color: #1ed821 !important;
+	padding: 10px 0px;
+	border-top: 1px solid #f2f2f3;
+}
+.text-primary-status {
+	color: #007bff !important;
+}
+.text-success-status {
+	color: #28a745 !important;
+}
+.text-info-status {
+	color: #17a2b8 !important;
+}
+.text-warning-status {
+	color: #ffc107 !important;
+}
+.text-danger-status {
+	color: #dc3545 !important;
+}
+@media (min-width: 992px) {
+	.new-dashboard .padding-none-both {
+		padding-right: 0;
+	}
+	.new-dashboard .text-right-media {
+		text-align: right;
+	}
+	.new-dashboard .border-l {
+		border-left: 1px solid #ccc;
+	}
+	.new-dashboard .border-l-r {
+		border-left: 1px solid #dcdcdc;
+		border-right: 1px solid #dcdcdc;
+	}
+	.new-dashboard .flex-class {
+		display: flex;
+	}
+	.new-dashboard .aligner-item-center {
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.new-dashboard .aligner-item-top {
+		-webkit-align-self: flex-start;
+		-ms-flex-item-align: start;
+		align-self: flex-start;
+	}
+	.new-dashboard .aligner-item-bottom {
+		-webkit-align-self: flex-end;
+		-ms-flex-item-align: end;
+		align-self: flex-end;
+	}
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+	.new-dashboard .medium-device-m-b {
+		margin-bottom: 15px;
+	}
+	.new-dashboard .hidden-md {
+		display: none !important;
+	}
+	.new-dashboard .clear-both {
+		clear: both;
+	}
+}
+@media (max-width: 767px) {
+	.new-dashboard .small-devicem-b {
+		margin-bottom: 15px;
+	}
+	.new-dashboard .hidden-md {
+		display: none !important;
+	}
+}
+.btn-primary {
+	background-color: #0060a9;
+	border-color: #0060a9;
+	color: #ffffff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.btn-primary.active:focus {
+	background-color: #0060a9;
+	border-color: #0060a9;
+	color: #ffffff;
+}
+/* New Invoices Table style End here */
+
+/* Login and Forgot password Style start here */
+.new-dashboard .full-height-wrapper {
+	/* margin-top: 20px;*/
+	height: calc(100vh - 40px);
+}
+.new-dashboard .height-100 {
+	height: 100%;
+}
+.new-dashboard .bg-white {
+	background: #fff;
+}
+.new-dashboard .font-size-21 {
+	font-size: 21px;
+}
+.new-dashboard .font-size-14 {
+	font-size: 14px;
+}
+.new-dashboard .dark-black-color {
+	color: #505050;
+}
+.new-dashboard .dark-black-bg {
+	background: #505050;
+}
+.new-dashboard .hr-border-color {
+	border-color: #d3d3d3;
+}
+.new-dashboard .pay-witout-login {
+	padding: 7px 10px;
+	color: #fff;
+}
+.new-dashboard .font-weight-600 {
+	font-weight: 600;
+}
+@media (min-width: 992px) {
+	.new-dashboard .vertical-align-center {
+		align-self: center;
+		margin: 0 auto;
+	}
+}
+/* Login and Forgot password Style End here */
+
+/*  Table Header fixed for Pay Now css  Start here*/
+.new-dashboard .header-fixed-table {
+	max-height: calc(100vh - 300px);
+	overflow: auto;
+}
+
+.new-dashboard .header-fixed-table.table-responsive > .table > thead > tr > th {
+	position: sticky;
+	top: -1px;
+	background: #f2f2f2;
+	border-top: 1px solid #dddddd;
+}
+/*  Table Header fixed for Pay Now css End here*/
+
+/* Profile Page style Start here */
+.new-dashboard .padding-l-r-50 {
+	padding: 5px 50px;
+}
+.new-dashboard .open-accordian {
+	position: relative;
+	padding-left: 22px;
+	display: block;
+}
+.new-dashboard .open-accordian.collapsed .fa-check-square-o {
+	display: none;
+}
+.new-dashboard .open-accordian .fa-check-square-o,
+.new-dashboard .open-accordian .fa-square-o {
+	position: absolute;
+	left: 0;
+	font-size: 16px;
+}
+.new-dashboard .required-mark {
+	color: red;
+}
+.new-dashboard .form-control:focus,
+.new-dashboard .single-line:focus {
+	border-color: #66afe9;
+}
+@media (min-width: 768px) {
+	.new-dashboard .padd-left-none {
+		padding-left: 0;
+	}
+}
+
+/*Bootstrap class*/
+.container {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 100%;
+	}
+}
+
+/* Profile Page style End here */
+
+/* ORC CSS FOR Statements */
+
+.backToAccount {
+	display: none;
+}
+
+.border-color-theme {
+	border-radius: 0;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.alert {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border-radius: 0;
+}
+
+.modal-content {
+	border-radius: 0;
+}
+
+.new-dashboard {
+	margin-top: 0 !important;
+
+	.container {
+		width: 100% !important;
+
+		.row {
+			margin: 0;
+
+			.float-e-margins {
+				border-radius: 0;
+
+				.ibox-title {
+					border-radius: 0;
+					padding: 15px 15px 7px 15px;
+				}
+			}
+		}
+	}
+}
